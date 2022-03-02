@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+    
+}
+
+.container{
+    width:1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+.col-1{
+    display: block;
+    margin-top: 40px;
+    margin-right: 20px;
+    flex: 2;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    
+    
+}
+
+.header-left{
+    display: flex;
+    flex:1;
+    margin-left: 430px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.header-right{
+    flex:1;
+    margin-left: 430px;
+    margin-top: 13px;
+}
+
+.sign-out{
+    color:white;
+    background-color: #17a2b8;
+    height: 25px;
+    width: 80px;
+    
+}
+
+
+
+.user-card{
+    width: 100%;
+    height: 410px;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    position: relative;
+    top: 40px;
+}
+
+.card-header{
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body{
+    padding-left: 20px;
+    padding-top: 10px;
+
+
+}
+
+.card-body h1, 
+.card-body h3,
+.card-body p {
+    margin: 10px 0px;
+}
+
+.icon{
+    height: 20px;
+}
+
+.card-avatar{
+    border-radius: 50%;
+    background-color: #fff;
+    height: 140px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 20px;
+    filter: invert(100%)
+}
+
+a {
+    color: #3a81e6;
+}
+
+.resume{
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    position: relative;
+    top: 40px;
+}
+
+.resume-header{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    height: 30px;
+}
+
+.resume h3{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.resume-date{
+    padding-left: 20px;
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.resume p{
+    padding-left: 20px;
+    
+}
+
+
+.col-2{
+    margin-top: 40px;
+    display: block;
+    flex: 1;
+}
+
+.connection-request{
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    position: relative;
+    top: 40px;
+    padding-bottom: 20px;
+}
+
+.cr-header{
+    background-color: black;
+    color: white;
+    height:50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+
+.cr-header-number{
+    color: black;
+    background-color: grey;
+    border-radius: 50%;
+    font-size: large;
+    
+    border: solid grey;
+    margin-right: 10px;
+}
+
+
+
+.cr-body h3{
+    margin-top: 10px;
+    
+    
+}
+
+
+
+
+
+.your-connections{
+    width: 100%;
+    height: 330px;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    position: relative;
+    top: 40px;
+}
+
+.yc-header{
+    background-color: black;
+    color: white;
+    height:50px;
+    padding-top: 20px;
+    padding-left: 20px
+
+}
+
+.yc-avatar,
+.cr-avatar{
+    border-radius: 50%;
+    background-color: #fff;
+    height: 30px;
+    padding: 1px;
+    margin-top: 0px;
+    margin-left: 20px;
+    filter: invert(100%);
+    position: relative;
+    top: 8px;
+}
+
+.check1,
+.cross1{
+    height:25px;
+    position: relative;
+    top: 8px;
+    left: 100px;
+}
+
+.check2,
+.cross2{
+    height:25px;
+    position: relative;
+    top: 8px;
+    left: 112px;
+}
+
+.yc-header-number{
+    
+    
+    color: black;
+    background-color: grey;
+    border-radius: 50%;
+    border: solid grey;
+    
+}
+
+.yc-body h3{
+    margin-top:10px;
+    
+}
+
+
+.yc-bottom{
+    margin-top: 13px;
+    margin-left: 20px;
+    
+    
+}
+    
+
+
+.for-border{
+padding-bottom: 15px;    
+border: solid #999;
+border-right-style: none;
+border-left-style: none;
+border-top-style: none;    
+    
+}
